@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap = "vendor/autoload.php"
+    colors          = "true" 
+    verbose         = "true" 
+    stopOnFailure   = "false" 
+    stderr          = "true">
+
+    <testsuites>
+        <testsuite name="NDRP Test">
+            <directory>test</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>
